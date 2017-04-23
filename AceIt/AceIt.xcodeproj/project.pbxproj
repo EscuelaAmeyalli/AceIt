@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0423C4DE1EAD4593000B2AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423C4DD1EAD4593000B2AEC /* AppDelegate.swift */; };
-		0423C4E01EAD4593000B2AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423C4DF1EAD4593000B2AEC /* ViewController.swift */; };
+		0423C4E01EAD4593000B2AEC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423C4DF1EAD4593000B2AEC /* ProfileViewController.swift */; };
 		0423C4E31EAD4593000B2AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0423C4E11EAD4593000B2AEC /* Main.storyboard */; };
 		0423C4E51EAD4593000B2AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0423C4E41EAD4593000B2AEC /* Assets.xcassets */; };
 		0423C4E81EAD4593000B2AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0423C4E61EAD4593000B2AEC /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		0423C4DA1EAD4593000B2AEC /* AceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0423C4DD1EAD4593000B2AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0423C4DF1EAD4593000B2AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0423C4DF1EAD4593000B2AEC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0423C4E21EAD4593000B2AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0423C4E41EAD4593000B2AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0423C4E71EAD4593000B2AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				0423C4DD1EAD4593000B2AEC /* AppDelegate.swift */,
-				0423C4DF1EAD4593000B2AEC /* ViewController.swift */,
+				0423C4DF1EAD4593000B2AEC /* ProfileViewController.swift */,
 				0423C4E11EAD4593000B2AEC /* Main.storyboard */,
 				0423C4E41EAD4593000B2AEC /* Assets.xcassets */,
 				0423C4E61EAD4593000B2AEC /* LaunchScreen.storyboard */,
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0423C4E01EAD4593000B2AEC /* ViewController.swift in Sources */,
+				0423C4E01EAD4593000B2AEC /* ProfileViewController.swift in Sources */,
 				0423C4DE1EAD4593000B2AEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +406,7 @@
 				0423C4F91EAD4593000B2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0423C4FA1EAD4593000B2AEC /* Build configuration list for PBXNativeTarget "AceItTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				0423C4FC1EAD4593000B2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
